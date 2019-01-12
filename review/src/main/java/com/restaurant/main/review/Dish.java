@@ -18,7 +18,6 @@ public class Dish {
     private boolean isVeg;
     private boolean isHalfAvailable;
     private List<Category> categories = new ArrayList<>();
-    private List<String> reviews = new ArrayList<>();
 
     public String getId() {
         return id;
@@ -74,13 +73,5 @@ public class Dish {
 
     public void setCategories(List<Category> categories) {
         this.categories = categories;
-    }
-
-    public List<String> getReviews() {
-        return reviews;
-    }
-
-    public void setReviews(List<String> reviews) {
-        this.reviews = reviews;
     }
 }
